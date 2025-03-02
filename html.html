@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Satya Bhanu Singh Palace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background: url('https://wallpaperaccess.com/full/1156132.jpg') no-repeat center center fixed;
+            background-size: cover;
+            /* background-blend-mode: overlay; */
+            background-color: rgba(245, 240, 225, 0.8);
+            color: #5a3e1b;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #8b5e3b;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 250, 240, 0.9);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #8b5e3b;
+            border-bottom: 2px solid #8b5e3b;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .family-list {
+            text-align: left;
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.5);
+        }
+        footer {
+            background: #8b5e3b;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        a {
+            color: #8b5e3b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="royal-title">Shri Satya Bhanu Singh Palace</h1>
+        <p class="royal-subtitle">A Royal Heritage Villa</p>
+    </header>
+    
+    <section id="about" class="section">
+        <h2>About the Palace</h2>
+        <p>This villa was made by our ancestor, deeply imbued with personal memories from the past. Every corner holds a story, echoing with laughter, familiar faces, and significant life events. It is not just a structure but a repository of cherished moments and emotions.</p>
+    </section>
+    
+    <section id="family" class="section">
+        <h2>Family Members</h2>
+        <ul class="family-list">
+            <li>Grandfather: Shri Chabbu Singh</li>
+            <li>Grandmother: Indrakali Singh</li>
+            <li>Father: Shri Satya Bhanu Singh</li>
+            <li>Mother: Mrs. Vandana Singh</li>
+            <li>Daughters: Pooja Singh, Rakhi Singh</li>
+            <li>Son: Himanshu Singh (Raja Bhaiya)</li>
+        </ul>
+    </section>
+    
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="Daddy ji.jpg" alt="Gallery Image 1" onclick="enlargeImage(this)">
+            <img src="Mummy ji.jpg" alt="Gallery Image 2" onclick="enlargeImage(this)">
+            <img src="Pooja didi.jpg" alt="Gallery Image 3" onclick="enlargeImage(this)">
+            <img src="Rakhi didi.jpg" alt="Gallery Image 4" onclick="enlargeImage(this)">
+            <img src="raja ji.jpg" alt="Gallery Image 5" onclick="enlargeImage(this)">
+        </div>
+    </section>
+    
+    <section id="history" class="section">
+        <h2>History</h2>
+        <p>A deep historical background of the palace and its significance.</p>
+    </section>
+    
+    <section id="events" class="section">
+        <h2>Villa Events</h2>
+        <p>Upcoming and past events celebrated at the villa.</p>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Information</h2>
+        <p>📍 Location: Ramgarh (Sonvarsha), Jari Bazar, Prayagraj, U.P.</p>
+        <p>📞 Phone: 6393854632</p>
+        <p>📧 Email: himanshusingh24061234@gmail.com</p>
+        <p>📸 Instagram: <a href="https://www.instagram.com/__vidhayak__ji____" target="_blank">__vidhayak__ji____</a></p>
+    </section>
+   
+    <footer>
+        <p>&copy; 2025 Shri Satya Bhanu Singh Palace | Designed with Royal Elegance</p>
+    </footer>
+</body>
+</html>
